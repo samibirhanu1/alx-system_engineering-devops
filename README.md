@@ -1,1 +1,1 @@
-the absolute path name of the current working director
+Display current directory contents, including hidden files (starting with .). Use the long format.
