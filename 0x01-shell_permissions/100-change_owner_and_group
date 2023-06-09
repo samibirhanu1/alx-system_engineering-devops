@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -mindepth 1 -exec chown vincent:staff {} +
