@@ -1,1 +1,2 @@
 #!/bin/bash
+ls -A1 | LC_ALL=C grep -E '^\.?$' -v | sed -E 's#^(.*\/)$#\1,#' | sed -E 's/^(.*[^\/])$/\1,/' | sort -d -k1.1,1.1 -k1.2,1.2 -t'/' | tr -d '\n'; echo
